@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data on Go (Golang) and Data Programming Blog - Nick Poorman</title>
-    <link>/tags/data/</link>
-    <description>Recent content in Data on Go (Golang) and Data Programming Blog - Nick Poorman</description>
+    <title>Golang on Go (Golang) and Data Programming Blog - Nick Poorman</title>
+    <link>/tags/golang/</link>
+    <description>Recent content in Golang on Go (Golang) and Data Programming Blog - Nick Poorman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sat, 29 Feb 2020 11:34:00 -0500</lastBuildDate>
     
-	<atom:link href="/tags/data/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
