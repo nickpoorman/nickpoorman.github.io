@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Go (Golang) Programming Blog - Nick Poorman | Go (Golang) Programming Blog - Nick Poorman</title>
-        <link>blog.nickpoorman.com/</link>
+        <link>/</link>
         <description>Go (Golang) Programming Blog - Nick Poorman | Go (Golang) Programming Blog - Nick Poorman</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Feb 2020 11:34:00 -0500</lastBuildDate><atom:link href="blog.nickpoorman.com/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Feb 2020 11:34:00 -0500</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
                 <title>About Nick Poorman</title>
-                <link>blog.nickpoorman.com/about/</link>
-                <pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>blog.nickpoorman.com/about/</guid>
+                <link>/about/</link>
+                <pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>/about/</guid>
                 <description>&lt;h1 id=&#34;cv&#34;&gt;CV&lt;/h1&gt;
 &lt;p&gt;:(fas fa-code): = open-source (OSS)&lt;/p&gt;
 &lt;h4 id=&#34;2020&#34;&gt;2020&lt;/h4&gt;
@@ -491,16 +491,16 @@
 
 
 &lt;figure class=&#34;lb &#34;&gt;
-&lt;a href=&#34;blog.nickpoorman.com/blog.nickpoorman.com/about/nickpoorman_1456852944_6.jpg&#34; data-lightbox=&#34;/blog.nickpoorman.com/about/nickpoorman_1456852944_6.jpg&#34; data-title=&#34;&#34; class=&#34;lb&#34;&gt;
-&lt;img style=&#34;border-radius: 8px; margin-top: 50px;&#34; class=&#34;lb&#34; src=&#34;blog.nickpoorman.com/blog.nickpoorman.com/about/nickpoorman_1456852944_6.jpg&#34; alt=&#34;&#34;  width=&#34;500&#34;  /&gt;
+&lt;a href=&#34;/about/nickpoorman_1456852944_6.jpg&#34; data-lightbox=&#34;/about/nickpoorman_1456852944_6.jpg&#34; data-title=&#34;&#34; class=&#34;lb&#34;&gt;
+&lt;img style=&#34;border-radius: 8px; margin-top: 50px;&#34; class=&#34;lb&#34; src=&#34;/about/nickpoorman_1456852944_6.jpg&#34; alt=&#34;&#34;  width=&#34;500&#34;  /&gt;
 &lt;/a&gt;&lt;figcaption class=&#34;figcaption&#34;&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 </description>
             </item><item>
                 <title>Posts</title>
-                <link>blog.nickpoorman.com/posts/</link>
-                <pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>blog.nickpoorman.com/posts/</guid>
+                <link>/posts/</link>
+                <pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>/posts/</guid>
                 <description></description>
             </item></channel>
 </rss>
