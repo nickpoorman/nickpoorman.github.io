@@ -1,4 +1,4 @@
-# GraphQL Ruby and Authorization With Pundit
+# GraphQL Ruby and Authorization With Pundit
 
 
 Recently I began exploring GraphQL for use with Ruby on Rails. There is an
