@@ -1,506 +1,437 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Go (Golang) and Data Programming Blog - Nick Poorman | Go (Golang) and Data Programming Blog - Nick Poorman</title>
-        <link>/</link>
-        <description>Go (Golang) and Data Programming Blog - Nick Poorman | Go (Golang) and Data Programming Blog - Nick Poorman</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Feb 2020 11:34:00 -0500</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
-                <title>About Nick Poorman</title>
-                <link>/about/</link>
-                <pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>/about/</guid>
-                <description>&lt;h1 id=&#34;cv&#34;&gt;CV&lt;/h1&gt;
-&lt;p&gt;:(fas fa-code): = open-source (OSS)&lt;/p&gt;
-&lt;h4 id=&#34;2020&#34;&gt;2020&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(fas fa-code): Founder &lt;a href=&#34;https://github.com/orgs/gomem&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Gomem&lt;/a&gt;
- Github Organization (Coming Soon)
-&lt;ul&gt;
-&lt;li&gt;Memory and data software in Go&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Contributor &lt;a href=&#34;https://github.com/apache/arrow&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;apache/arrow&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ported the Apache Arrow C++ Parquet implementation to Go - &lt;a href=&#34;https://issues.apache.org/jira/browse/ARROW-7905&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;ARROW-7905&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Director of Engineering on Data Platform @RedVentures&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2019&#34;&gt;2019&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(fas fa-code): Contributor &lt;a href=&#34;https://github.com/apache/arrow&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;apache/arrow&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/apache/arrow/pull/5642&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;ARROW-6868&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/go-bullseye/bullseye&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;go-bullseye/bullseye&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A Go DataFrame built on Apache Arrow&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Contributor &lt;a href=&#34;https://github.com/apache/arrow&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;go-python/gopy&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/go-python/gopy/pull/180#issuecomment-515706331&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;180&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/go-py-arrow-bridge&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/go-py-arrow-bridge&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Bridge between Go and Python to facilitate zero-copy using Apache Arrow&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/go-python-arrow-zero-copy-poc&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/go-python-arrow-zero-copy-poc&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;POC for zero-copy between Go and Python using Apache Arrow&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Contributor &lt;a href=&#34;https://github.com/nickpoorman/go-python3&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/go-python3&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Go bindings to the CPython-3 API with &lt;a href=&#34;https://github.com/nickpoorman/go-python3/compare/nickpoorman:0b25cc550560f4b3e49c89af907f7cfeffe94dac...nickpoorman:master&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;support for Py_buffer&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/go-benchmark-plot&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/go-benchmark-plot&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CLI tool to plot Go benchmarks on a graph&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/pytasks&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/pytasks&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Python task execution in Go that makes working with the Python GIL simple&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Contributor &lt;a href=&#34;https://github.com/contribsys/faktory_worker_go&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;contribsys/faktory_worker_go&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Implemented weighted queues - &lt;a href=&#34;https://github.com/contribsys/faktory_worker_go&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;20&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Director of Engineering on Data Platform @RedVentures
-&lt;ul&gt;
-&lt;li&gt;Routing tens of thousands of events per second to hundreds of destinations and integrations&lt;/li&gt;
-&lt;li&gt;Go, GRPC, NSQ&lt;/li&gt;
-&lt;li&gt;Scala, Spark (Databricks)&lt;/li&gt;
-&lt;li&gt;AWS Kinesis&lt;/li&gt;
-&lt;li&gt;Cassandra&lt;/li&gt;
-&lt;li&gt;Reinforcement Learning, Bandits&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Owner @unreplied.io &amp;amp; @unreplied.me&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2018&#34;&gt;2018&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(fas fa-hand-holding-usd): Investor @Untappd&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Senior Software Engineer on Data Science Engineering @RedVentures
-&lt;ul&gt;
-&lt;li&gt;Machine Learning, Data Enrichment&lt;/li&gt;
-&lt;li&gt;Scala, Spark (Databricks), Akka&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/combust/mleap&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;MLEAP&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;AWS S3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Partner @Unreplied.io &amp;amp; @Unreplied.me - Email SaaS Product&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Owner @&lt;a href=&#34;https://features.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;features.ai&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2017&#34;&gt;2017&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): Partner @Unreplied.io &amp;amp; @Unreplied.me - Email SaaS Product&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
-&lt;ul&gt;
-&lt;li&gt;Reported to CTO&lt;/li&gt;
-&lt;li&gt;GraphQL API for &lt;a href=&#34;business.untappd.com&#34; rel=&#34;noopener noreffer&#34;&gt;Untappd For Business&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;Local Badges and Payment Processing for &lt;a href=&#34;business.untappd.com&#34; rel=&#34;noopener noreffer&#34;&gt;Untappd For Business&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;Ruby on Rails (RoR), Postgres, Redis, Sidekiq, Vue.js, React.js, and GraphQL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Member of Port City Young Professionals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2016&#34;&gt;2016&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/tab-lint&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/tab-lint&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A simple bash script to lint your project for tabs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/ruby_json_hasher&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/ruby_json_hasher&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Create a stable SHA-2 hash from a JSON object in Ruby&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-comment-dots): Cognitive Analytics Panelist @&lt;a href=&#34;http://www.ncstir.com/wp-content/uploads/2016/01/NCTA-NCSTIR-2016-REPORT.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;NCTA&lt;/a&gt;
- &lt;a href=&#34;https://www.youtube.com/watch?v=QRSat4eHmBE&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;State&lt;/a&gt;
- Of Technology Conference&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
-&lt;ul&gt;
-&lt;li&gt;Reported to CEO&lt;/li&gt;
-&lt;li&gt;Menu Builder for &lt;a href=&#34;business.untappd.com&#34; rel=&#34;noopener noreffer&#34;&gt;Untappd For Business&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;Facebook and Twitter integration for &lt;a href=&#34;business.untappd.com&#34; rel=&#34;noopener noreffer&#34;&gt;Untappd For Business&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;Sidekiq Job Processing for &lt;a href=&#34;business.untappd.com&#34; rel=&#34;noopener noreffer&#34;&gt;Untappd For Business&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;Ruby on Rails (RoR), Postgres, Redis, Sidekiq, Vue.js, React.js, and GraphQL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Owner @pantry.io&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Member of Port City Young Professionals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2015&#34;&gt;2015&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/go-amp-message&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/go-amp-message&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Higher level AMP message manipulation for golang&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/go-amp&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/go-amp&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Abstract message protocol for golang&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/bray-curtis&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/bray-curtis&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nearest neighbor using bray curtis dissimilarity&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/get-max&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/get-max&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Get the maximum of two numbers that works with non-numbers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/get-min&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/get-min&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Get the minimum of two numbers that works with non-numbers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/is-finite-number&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/is-finite-number&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Determines if input is a finite number and works with non-numbers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/heroku-log-filter&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/heroku-log-filter&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Filter heroku logs and retain the color&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/docker-spark-job-server&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/docker-spark-job-server&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Docker container containing a Spark Job Server&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/docker-mesos&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/docker-mesos&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A base Docker layer for Mesos&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/docker-redis-cluster&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/docker-redis-cluster&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Docker container to start a redis cluster&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/docker-spark-postgresql-base&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/docker-spark-postgresql-base&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Docker image that contains a spark build which has been compiled with postgresql driver&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/docker-spark-postgresql&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/docker-spark-postgresql&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Entrypoint for nickpoorman/docker-spark-postgresql-base Docker image&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/docker-echo-hostname&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/docker-echo-hostname&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Docker repo that when launched will echo the hostname in a loop. Useful for debugging containers in cluster&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/docker-chronos&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/docker-chronos&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Chronos for Mesos with Docker - Built from source&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/template-scala-parallel-prediction&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/template-scala-parallel-prediction&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Get a rating prediction for a given user and item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/chi-square-nearest-neighbor&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/chi-square-nearest-neighbor&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nearest neighbor using chi-square distance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/object-keys-to-case&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/object-keys-to-case&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Change all the keys of an object to a given case&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/smape&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/smape&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Symmetric mean absolute percentage error (SMAPE)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/mape&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/mape&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mean absolute percentage error (MAPE)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
-&lt;ul&gt;
-&lt;li&gt;Reported to CEO&lt;/li&gt;
-&lt;li&gt;Created of the machine learning layer, powering the recommendations and scores behind the Next Glass app.&lt;/li&gt;
-&lt;li&gt;Designed and implemented near real-time machine learning, scaling to over 1.5 billion ratings and recommendations monthly to Next Glass users.&lt;/li&gt;
-&lt;li&gt;Analyzed and cleaned terabytes of Liquid Chromatography-Mass Spectrometry data for thousands of bottles of wine and beer.&lt;/li&gt;
-&lt;li&gt;Data Science, Machine Learning, Artificial Neural Networks, Mesos, Spark, Analytical Chemistry, Liquid Chromatography-Mass Spectrometry, Real-Time, API, Scala, Node.js, Golang, Ruby, Rails, RethinkDB&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Advisor @Likeli
-&lt;ul&gt;
-&lt;li&gt;Dating app using machine learning and psychometric profiling&lt;/li&gt;
-&lt;li&gt;Built the POC for the startup&lt;/li&gt;
-&lt;li&gt;Advised on data science and machine learning&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Member of Port City Young Professionals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2014&#34;&gt;2014&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/object-md5&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/object-md5&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Create a stable MD5 hash out of an object&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/rmse&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/rmse&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Calculates Root Mean Square Error&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/one-hot&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/one-hot&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;One hot encode vectors using a streaming implementation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/scale-number-range&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/scale-number-range&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Linear scale of a number from one range to another&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/co-blackhole&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/co-blackhole&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sends non-filtered errors to a blackhole for co framework&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/tallship-manifest&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/tallship-manifest&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;High availability service management&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Full Stack Developer @Untappd (@NextGlass)
-&lt;ul&gt;
-&lt;li&gt;Reported to CTO&lt;/li&gt;
-&lt;li&gt;Worked with Sean Ownen and Peter Prettenhofer on NextGlass machine learning recommendation POC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-ship): Bridge Officer (Lt.) Cape Fear Sail &amp;amp; Power Squadron&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Member of Port City Young Professionals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2013&#34;&gt;2013&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): Full Stack Developer @Untappd (@NextGlass)
-&lt;ul&gt;
-&lt;li&gt;Reported to CTO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/mongodb-collection-dump&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/mongodb-collection-dump&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/object-stream-to-fs&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/object-stream-to-fs&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Consume a stream of objects and save them to a file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/rmse&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/rmse&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Calculates Root Mean Square Error&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Author &lt;a href=&#34;https://github.com/nickpoorman/sandbox-news&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/sandbox-news&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hacker News style news site for Syracuse Student Sandbox&lt;/li&gt;
-&lt;li&gt;Built backend APIs in Node.js for the Alpha version of the Next Glass app&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Contributor &lt;a href=&#34;https://github.com/harthur/brain&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;harthur/brain&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added ability to train artificial neural network from streams when data is too big to fit into memory &lt;a href=&#34;https://github.com/harthur/brain/pull/30&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;30&lt;/a&gt;
-, &lt;a href=&#34;https://github.com/harthur/brain/pull/48&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;48&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-code): Contributor &lt;a href=&#34;https://github.com/deoxxa/jsmc&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;deoxxa/jsmc&lt;/a&gt;
- Javascript Minecraft Server
-&lt;ul&gt;
-&lt;li&gt;Added falling damage &lt;a href=&#34;https://github.com/deoxxa/jsmc/pull/23&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;23&lt;/a&gt;
-, &lt;a href=&#34;https://github.com/deoxxa/jsmc/pull/24&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;24&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Co-Founder @Regattable
-&lt;ul&gt;
-&lt;li&gt;Designed and implemented &amp;ldquo;The Harbor&amp;rdquo; - a software suite for race management. Improved on the PHRF system by using artificial neural networks to set handicap for boats by using boat specs such as LOA, LWL, etc..&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2012&#34;&gt;2012&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): Co-Founder &amp;amp; COO @Regattable
-&lt;ul&gt;
-&lt;li&gt;Designed, fund-raised, and built a portable (folding) 16-foot catamaran sailboat that fits in the trunk of your car.&lt;/li&gt;
-&lt;li&gt;Business planning, grant proposals, built contacts with banks or large payment processing, and public relations with the sailing community.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2011&#34;&gt;2011&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(fas fa-user-graduate): Bachelors Degree in Computer Science from SUNY Oswego - concentration in AI and Cyber Security&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Cyber Defence Research PMC @Air Force Research Laboratory
-&lt;ul&gt;
-&lt;li&gt;Protocol Analysis, IPv6, OpenBSD Kernel Programming in C, CAC R&amp;amp;D, Cyber Sciences, Cyber Defense&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Treasurer @Computer Science Association&lt;/li&gt;
-&lt;li&gt;:(fas fa-user-graduate): Author &lt;a href=&#34;https://github.com/nickpoorman/Java-Port-Knocking-Backdoor&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/Java-Port-Knocking-Backdoor&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A Semi-Stealthy Port Knocking Backdoor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2010&#34;&gt;2010&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): Treasurer @Computer Science Association&lt;/li&gt;
-&lt;li&gt;:(fas fa-shield-alt): Team Leader @Northeast Collegiate Cyber Defense Competition&lt;/li&gt;
-&lt;li&gt;:(fas fa-user-graduate): Author &lt;a href=&#34;https://github.com/nickpoorman/CS-Project-Parallel-Cluster-Heat-Distribution&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/CS-Project-Parallel-Cluster-Heat-Distribution&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A distributed version of &lt;a href=&#34;https://github.com/nickpoorman/CS-Project-Metal-Heat-Distribution&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/CS-Project-Metal-Heat-Distribution&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-user-graduate): Author &lt;a href=&#34;https://github.com/nickpoorman/CS-Project-Metal-Heat-Distribution&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/CS-Project-Metal-Heat-Distribution&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A visual representation and parallel Java simulation of metal (pixels) heating up.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-user-graduate): Author &lt;a href=&#34;https://github.com/nickpoorman/CS-Project-Fibonacci-Fork-Join&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/CS-Project-Fibonacci-Fork-Join&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fibonacci generator using Java ForkJoin&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2009&#34;&gt;2009&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): Treasurer @Computer Science Association&lt;/li&gt;
-&lt;li&gt;:(fas fa-user-graduate): Author &lt;a href=&#34;https://github.com/nickpoorman/CS-Project-Persistent-BTree&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/CS-Project-Persistent-BTree&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Persistent on-disk BTree implementation in Java&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-user-graduate): Author &lt;a href=&#34;https://github.com/nickpoorman/https://github.com/nickpoorman/CS-Project-490&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/https://github.com/nickpoorman/CS-Project-490&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Text based game foundation with plugin api&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fas fa-user-graduate): Author &lt;a href=&#34;https://github.com/nickpoorman/CSC445-TFTP-Sliding-Windows-Java&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/CSC445-TFTP-Sliding-Windows-Java&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A TFTP implementation for IPv4 and IPv6 that also has the ability to use sliding windows&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2008&#34;&gt;2008&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): Social Chairman @Computer Science Association&lt;/li&gt;
-&lt;li&gt;:(far fa-user): Project Manager (Contractor) @TEA&lt;/li&gt;
-&lt;li&gt;:(far fa-user): US Sailing Instructor @Oswego Maritime Foundation&lt;/li&gt;
-&lt;li&gt;:(fas fa-user-graduate): Author &lt;a href=&#34;https://github.com/nickpoorman/CSC344-A3-Python&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;nickpoorman/CSC344-A3-Python&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;First attempt at Python. Website that grabs comments from Ventrilo and displays them on a page&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2007&#34;&gt;2007&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): Systems Assembler @Seneca Data&lt;/li&gt;
-&lt;li&gt;:(far fa-user): President @&amp;lsquo;Cuse Cuisine&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2006&#34;&gt;2006&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): Vice President of Production @Rockin&amp;rsquo; Recipes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2003-06&#34;&gt;2003-06&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;:(far fa-user): US Sailing Instructor @Henderson Harbor Water Sports&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;figure class=&#34;lb &#34;&gt;
-&lt;a href=&#34;/about/nickpoorman_1456852944_6.jpg&#34; data-lightbox=&#34;/about/nickpoorman_1456852944_6.jpg&#34; data-title=&#34;&#34; class=&#34;lb&#34;&gt;
-&lt;img style=&#34;border-radius: 8px; margin-top: 50px;&#34; class=&#34;lb&#34; src=&#34;/about/nickpoorman_1456852944_6.jpg&#34; alt=&#34;&#34;  width=&#34;500&#34;  /&gt;
-&lt;/a&gt;&lt;figcaption class=&#34;figcaption&#34;&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-            </item><item>
-                <title>Posts</title>
-                <link>/posts/</link>
-                <pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>/posts/</guid>
-                <description></description>
-            </item></channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go (Golang) and Data Programming Blog - Nick Poorman | Go (Golang) and Data Programming Blog - Nick Poorman</title><link>/</link><description>Go (Golang) and Data Programming Blog - Nick Poorman | Go (Golang) and Data Programming Blog - Nick Poorman</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Feb 2020 11:34:00 -0500</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml"/><item><title>About Nick Poorman</title><link>/about/</link><pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>/about/</guid><description>&lt;h1 id="cv">CV&lt;/h1>
+&lt;p>:(fas fa-code): = open-source (OSS)&lt;/p>
+&lt;h4 id="2020">2020&lt;/h4>
+&lt;ul>
+&lt;li>:(fas fa-code): Founder &lt;a href="https://github.com/orgs/gomem" target="_blank" rel="noopener noreffer">Gomem&lt;/a>
+Github Organization (Coming Soon)
+&lt;ul>
+&lt;li>Memory and data software in Go&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Contributor &lt;a href="https://github.com/apache/arrow" target="_blank" rel="noopener noreffer">apache/arrow&lt;/a>
+&lt;ul>
+&lt;li>Ported the Apache Arrow C++ Parquet implementation to Go - &lt;a href="https://issues.apache.org/jira/browse/ARROW-7905" target="_blank" rel="noopener noreffer">ARROW-7905&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Director of Engineering on Data Platform @RedVentures&lt;/li>
+&lt;/ul>
+&lt;h4 id="2019">2019&lt;/h4>
+&lt;ul>
+&lt;li>:(fas fa-code): Contributor &lt;a href="https://github.com/apache/arrow" target="_blank" rel="noopener noreffer">apache/arrow&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/apache/arrow/pull/5642" target="_blank" rel="noopener noreffer">ARROW-6868&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/go-bullseye/bullseye" target="_blank" rel="noopener noreffer">go-bullseye/bullseye&lt;/a>
+&lt;ul>
+&lt;li>A Go DataFrame built on Apache Arrow&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Contributor &lt;a href="https://github.com/apache/arrow" target="_blank" rel="noopener noreffer">go-python/gopy&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/go-python/gopy/pull/180#issuecomment-515706331" target="_blank" rel="noopener noreffer">180&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/go-py-arrow-bridge" target="_blank" rel="noopener noreffer">nickpoorman/go-py-arrow-bridge&lt;/a>
+&lt;ul>
+&lt;li>Bridge between Go and Python to facilitate zero-copy using Apache Arrow&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/go-python-arrow-zero-copy-poc" target="_blank" rel="noopener noreffer">nickpoorman/go-python-arrow-zero-copy-poc&lt;/a>
+&lt;ul>
+&lt;li>POC for zero-copy between Go and Python using Apache Arrow&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Contributor &lt;a href="https://github.com/nickpoorman/go-python3" target="_blank" rel="noopener noreffer">nickpoorman/go-python3&lt;/a>
+&lt;ul>
+&lt;li>Go bindings to the CPython-3 API with &lt;a href="https://github.com/nickpoorman/go-python3/compare/nickpoorman:0b25cc550560f4b3e49c89af907f7cfeffe94dac...nickpoorman:master" target="_blank" rel="noopener noreffer">support for Py_buffer&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/go-benchmark-plot" target="_blank" rel="noopener noreffer">nickpoorman/go-benchmark-plot&lt;/a>
+&lt;ul>
+&lt;li>CLI tool to plot Go benchmarks on a graph&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/pytasks" target="_blank" rel="noopener noreffer">nickpoorman/pytasks&lt;/a>
+&lt;ul>
+&lt;li>Python task execution in Go that makes working with the Python GIL simple&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Contributor &lt;a href="https://github.com/contribsys/faktory_worker_go" target="_blank" rel="noopener noreffer">contribsys/faktory_worker_go&lt;/a>
+&lt;ul>
+&lt;li>Implemented weighted queues - &lt;a href="https://github.com/contribsys/faktory_worker_go" target="_blank" rel="noopener noreffer">20&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Director of Engineering on Data Platform @RedVentures
+&lt;ul>
+&lt;li>Routing tens of thousands of events per second to hundreds of destinations and integrations&lt;/li>
+&lt;li>Go, GRPC, NSQ&lt;/li>
+&lt;li>Scala, Spark (Databricks)&lt;/li>
+&lt;li>AWS Kinesis&lt;/li>
+&lt;li>Cassandra&lt;/li>
+&lt;li>Reinforcement Learning, Bandits&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Owner @unreplied.io &amp;amp; @unreplied.me&lt;/li>
+&lt;/ul>
+&lt;h4 id="2018">2018&lt;/h4>
+&lt;ul>
+&lt;li>:(fas fa-hand-holding-usd): Investor @Untappd&lt;/li>
+&lt;li>:(far fa-user): Senior Software Engineer on Data Science Engineering @RedVentures
+&lt;ul>
+&lt;li>Machine Learning, Data Enrichment&lt;/li>
+&lt;li>Scala, Spark (Databricks), Akka&lt;/li>
+&lt;li>&lt;a href="https://github.com/combust/mleap" target="_blank" rel="noopener noreffer">MLEAP&lt;/a>
+&lt;/li>
+&lt;li>AWS S3&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Partner @Unreplied.io &amp;amp; @Unreplied.me - Email SaaS Product&lt;/li>
+&lt;li>:(far fa-user): Owner @&lt;a href="https://features.ai" target="_blank" rel="noopener noreffer">features.ai&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="2017">2017&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Partner @Unreplied.io &amp;amp; @Unreplied.me - Email SaaS Product&lt;/li>
+&lt;li>:(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
+&lt;ul>
+&lt;li>Reported to CTO&lt;/li>
+&lt;li>GraphQL API for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;/li>
+&lt;li>Local Badges and Payment Processing for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;/li>
+&lt;li>Ruby on Rails (RoR), Postgres, Redis, Sidekiq, Vue.js, React.js, and GraphQL&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Member of Port City Young Professionals&lt;/li>
+&lt;/ul>
+&lt;h4 id="2016">2016&lt;/h4>
+&lt;ul>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/tab-lint" target="_blank" rel="noopener noreffer">nickpoorman/tab-lint&lt;/a>
+&lt;ul>
+&lt;li>A simple bash script to lint your project for tabs&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/ruby_json_hasher" target="_blank" rel="noopener noreffer">nickpoorman/ruby_json_hasher&lt;/a>
+&lt;ul>
+&lt;li>Create a stable SHA-2 hash from a JSON object in Ruby&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-comment-dots): Cognitive Analytics Panelist @&lt;a href="http://www.ncstir.com/wp-content/uploads/2016/01/NCTA-NCSTIR-2016-REPORT.pdf" target="_blank" rel="noopener noreffer">NCTA&lt;/a>
+&lt;a href="https://www.youtube.com/watch?v=QRSat4eHmBE&amp;amp;feature=youtu.be" target="_blank" rel="noopener noreffer">State&lt;/a>
+Of Technology Conference&lt;/li>
+&lt;li>:(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
+&lt;ul>
+&lt;li>Reported to CEO&lt;/li>
+&lt;li>Menu Builder for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;/li>
+&lt;li>Facebook and Twitter integration for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;/li>
+&lt;li>Sidekiq Job Processing for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;/li>
+&lt;li>Ruby on Rails (RoR), Postgres, Redis, Sidekiq, Vue.js, React.js, and GraphQL&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Owner @pantry.io&lt;/li>
+&lt;li>:(far fa-user): Member of Port City Young Professionals&lt;/li>
+&lt;/ul>
+&lt;h4 id="2015">2015&lt;/h4>
+&lt;ul>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/go-amp-message" target="_blank" rel="noopener noreffer">nickpoorman/go-amp-message&lt;/a>
+&lt;ul>
+&lt;li>Higher level AMP message manipulation for golang&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/go-amp" target="_blank" rel="noopener noreffer">nickpoorman/go-amp&lt;/a>
+&lt;ul>
+&lt;li>Abstract message protocol for golang&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/bray-curtis" target="_blank" rel="noopener noreffer">nickpoorman/bray-curtis&lt;/a>
+&lt;ul>
+&lt;li>Nearest neighbor using bray curtis dissimilarity&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/get-max" target="_blank" rel="noopener noreffer">nickpoorman/get-max&lt;/a>
+&lt;ul>
+&lt;li>Get the maximum of two numbers that works with non-numbers&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/get-min" target="_blank" rel="noopener noreffer">nickpoorman/get-min&lt;/a>
+&lt;ul>
+&lt;li>Get the minimum of two numbers that works with non-numbers&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/is-finite-number" target="_blank" rel="noopener noreffer">nickpoorman/is-finite-number&lt;/a>
+&lt;ul>
+&lt;li>Determines if input is a finite number and works with non-numbers&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/heroku-log-filter" target="_blank" rel="noopener noreffer">nickpoorman/heroku-log-filter&lt;/a>
+&lt;ul>
+&lt;li>Filter heroku logs and retain the color&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/docker-spark-job-server" target="_blank" rel="noopener noreffer">nickpoorman/docker-spark-job-server&lt;/a>
+&lt;ul>
+&lt;li>Docker container containing a Spark Job Server&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/docker-mesos" target="_blank" rel="noopener noreffer">nickpoorman/docker-mesos&lt;/a>
+&lt;ul>
+&lt;li>A base Docker layer for Mesos&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/docker-redis-cluster" target="_blank" rel="noopener noreffer">nickpoorman/docker-redis-cluster&lt;/a>
+&lt;ul>
+&lt;li>Docker container to start a redis cluster&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/docker-spark-postgresql-base" target="_blank" rel="noopener noreffer">nickpoorman/docker-spark-postgresql-base&lt;/a>
+&lt;ul>
+&lt;li>Docker image that contains a spark build which has been compiled with postgresql driver&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/docker-spark-postgresql" target="_blank" rel="noopener noreffer">nickpoorman/docker-spark-postgresql&lt;/a>
+&lt;ul>
+&lt;li>Entrypoint for nickpoorman/docker-spark-postgresql-base Docker image&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/docker-echo-hostname" target="_blank" rel="noopener noreffer">nickpoorman/docker-echo-hostname&lt;/a>
+&lt;ul>
+&lt;li>Docker repo that when launched will echo the hostname in a loop. Useful for debugging containers in cluster&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/docker-chronos" target="_blank" rel="noopener noreffer">nickpoorman/docker-chronos&lt;/a>
+&lt;ul>
+&lt;li>Chronos for Mesos with Docker - Built from source&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/template-scala-parallel-prediction" target="_blank" rel="noopener noreffer">nickpoorman/template-scala-parallel-prediction&lt;/a>
+&lt;ul>
+&lt;li>Get a rating prediction for a given user and item&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/chi-square-nearest-neighbor" target="_blank" rel="noopener noreffer">nickpoorman/chi-square-nearest-neighbor&lt;/a>
+&lt;ul>
+&lt;li>Nearest neighbor using chi-square distance&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/object-keys-to-case" target="_blank" rel="noopener noreffer">nickpoorman/object-keys-to-case&lt;/a>
+&lt;ul>
+&lt;li>Change all the keys of an object to a given case&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/smape" target="_blank" rel="noopener noreffer">nickpoorman/smape&lt;/a>
+&lt;ul>
+&lt;li>Symmetric mean absolute percentage error (SMAPE)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/mape" target="_blank" rel="noopener noreffer">nickpoorman/mape&lt;/a>
+&lt;ul>
+&lt;li>Mean absolute percentage error (MAPE)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
+&lt;ul>
+&lt;li>Reported to CEO&lt;/li>
+&lt;li>Created of the machine learning layer, powering the recommendations and scores behind the Next Glass app.&lt;/li>
+&lt;li>Designed and implemented near real-time machine learning, scaling to over 1.5 billion ratings and recommendations monthly to Next Glass users.&lt;/li>
+&lt;li>Analyzed and cleaned terabytes of Liquid Chromatography-Mass Spectrometry data for thousands of bottles of wine and beer.&lt;/li>
+&lt;li>Data Science, Machine Learning, Artificial Neural Networks, Mesos, Spark, Analytical Chemistry, Liquid Chromatography-Mass Spectrometry, Real-Time, API, Scala, Node.js, Golang, Ruby, Rails, RethinkDB&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Advisor @Likeli
+&lt;ul>
+&lt;li>Dating app using machine learning and psychometric profiling&lt;/li>
+&lt;li>Built the POC for the startup&lt;/li>
+&lt;li>Advised on data science and machine learning&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Member of Port City Young Professionals&lt;/li>
+&lt;/ul>
+&lt;h4 id="2014">2014&lt;/h4>
+&lt;ul>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/object-md5" target="_blank" rel="noopener noreffer">nickpoorman/object-md5&lt;/a>
+&lt;ul>
+&lt;li>Create a stable MD5 hash out of an object&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/rmse" target="_blank" rel="noopener noreffer">nickpoorman/rmse&lt;/a>
+&lt;ul>
+&lt;li>Calculates Root Mean Square Error&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/one-hot" target="_blank" rel="noopener noreffer">nickpoorman/one-hot&lt;/a>
+&lt;ul>
+&lt;li>One hot encode vectors using a streaming implementation&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/scale-number-range" target="_blank" rel="noopener noreffer">nickpoorman/scale-number-range&lt;/a>
+&lt;ul>
+&lt;li>Linear scale of a number from one range to another&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/co-blackhole" target="_blank" rel="noopener noreffer">nickpoorman/co-blackhole&lt;/a>
+&lt;ul>
+&lt;li>Sends non-filtered errors to a blackhole for co framework&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/tallship-manifest" target="_blank" rel="noopener noreffer">nickpoorman/tallship-manifest&lt;/a>
+&lt;ul>
+&lt;li>High availability service management&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Full Stack Developer @Untappd (@NextGlass)
+&lt;ul>
+&lt;li>Reported to CTO&lt;/li>
+&lt;li>Worked with Sean Ownen and Peter Prettenhofer on NextGlass machine learning recommendation POC&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-ship): Bridge Officer (Lt.) Cape Fear Sail &amp;amp; Power Squadron&lt;/li>
+&lt;li>:(far fa-user): Member of Port City Young Professionals&lt;/li>
+&lt;/ul>
+&lt;h4 id="2013">2013&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Full Stack Developer @Untappd (@NextGlass)
+&lt;ul>
+&lt;li>Reported to CTO&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/mongodb-collection-dump" target="_blank" rel="noopener noreffer">nickpoorman/mongodb-collection-dump&lt;/a>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/object-stream-to-fs" target="_blank" rel="noopener noreffer">nickpoorman/object-stream-to-fs&lt;/a>
+&lt;ul>
+&lt;li>Consume a stream of objects and save them to a file&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/rmse" target="_blank" rel="noopener noreffer">nickpoorman/rmse&lt;/a>
+&lt;ul>
+&lt;li>Calculates Root Mean Square Error&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/sandbox-news" target="_blank" rel="noopener noreffer">nickpoorman/sandbox-news&lt;/a>
+&lt;ul>
+&lt;li>Hacker News style news site for Syracuse Student Sandbox&lt;/li>
+&lt;li>Built backend APIs in Node.js for the Alpha version of the Next Glass app&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Contributor &lt;a href="https://github.com/harthur/brain" target="_blank" rel="noopener noreffer">harthur/brain&lt;/a>
+&lt;ul>
+&lt;li>Added ability to train artificial neural network from streams when data is too big to fit into memory &lt;a href="https://github.com/harthur/brain/pull/30" target="_blank" rel="noopener noreffer">30&lt;/a>
+, &lt;a href="https://github.com/harthur/brain/pull/48" target="_blank" rel="noopener noreffer">48&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-code): Contributor &lt;a href="https://github.com/deoxxa/jsmc" target="_blank" rel="noopener noreffer">deoxxa/jsmc&lt;/a>
+Javascript Minecraft Server
+&lt;ul>
+&lt;li>Added falling damage &lt;a href="https://github.com/deoxxa/jsmc/pull/23" target="_blank" rel="noopener noreffer">23&lt;/a>
+, &lt;a href="https://github.com/deoxxa/jsmc/pull/24" target="_blank" rel="noopener noreffer">24&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Co-Founder @Regattable
+&lt;ul>
+&lt;li>Designed and implemented &amp;ldquo;The Harbor&amp;rdquo; - a software suite for race management. Improved on the PHRF system by using artificial neural networks to set handicap for boats by using boat specs such as LOA, LWL, etc..&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="2012">2012&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Co-Founder &amp;amp; COO @Regattable
+&lt;ul>
+&lt;li>Designed, fund-raised, and built a portable (folding) 16-foot catamaran sailboat that fits in the trunk of your car.&lt;/li>
+&lt;li>Business planning, grant proposals, built contacts with banks or large payment processing, and public relations with the sailing community.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="2011">2011&lt;/h4>
+&lt;ul>
+&lt;li>:(fas fa-user-graduate): Bachelors Degree in Computer Science from SUNY Oswego - concentration in AI and Cyber Security&lt;/li>
+&lt;li>:(far fa-user): Cyber Defence Research PMC @Air Force Research Laboratory
+&lt;ul>
+&lt;li>Protocol Analysis, IPv6, OpenBSD Kernel Programming in C, CAC R&amp;amp;D, Cyber Sciences, Cyber Defense&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(far fa-user): Treasurer @Computer Science Association&lt;/li>
+&lt;li>:(fas fa-user-graduate): Author &lt;a href="https://github.com/nickpoorman/Java-Port-Knocking-Backdoor" target="_blank" rel="noopener noreffer">nickpoorman/Java-Port-Knocking-Backdoor&lt;/a>
+&lt;ul>
+&lt;li>A Semi-Stealthy Port Knocking Backdoor&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="2010">2010&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Treasurer @Computer Science Association&lt;/li>
+&lt;li>:(fas fa-shield-alt): Team Leader @Northeast Collegiate Cyber Defense Competition&lt;/li>
+&lt;li>:(fas fa-user-graduate): Author &lt;a href="https://github.com/nickpoorman/CS-Project-Parallel-Cluster-Heat-Distribution" target="_blank" rel="noopener noreffer">nickpoorman/CS-Project-Parallel-Cluster-Heat-Distribution&lt;/a>
+&lt;ul>
+&lt;li>A distributed version of &lt;a href="https://github.com/nickpoorman/CS-Project-Metal-Heat-Distribution" target="_blank" rel="noopener noreffer">nickpoorman/CS-Project-Metal-Heat-Distribution&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-user-graduate): Author &lt;a href="https://github.com/nickpoorman/CS-Project-Metal-Heat-Distribution" target="_blank" rel="noopener noreffer">nickpoorman/CS-Project-Metal-Heat-Distribution&lt;/a>
+&lt;ul>
+&lt;li>A visual representation and parallel Java simulation of metal (pixels) heating up.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-user-graduate): Author &lt;a href="https://github.com/nickpoorman/CS-Project-Fibonacci-Fork-Join" target="_blank" rel="noopener noreffer">nickpoorman/CS-Project-Fibonacci-Fork-Join&lt;/a>
+&lt;ul>
+&lt;li>Fibonacci generator using Java ForkJoin&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="2009">2009&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Treasurer @Computer Science Association&lt;/li>
+&lt;li>:(fas fa-user-graduate): Author &lt;a href="https://github.com/nickpoorman/CS-Project-Persistent-BTree" target="_blank" rel="noopener noreffer">nickpoorman/CS-Project-Persistent-BTree&lt;/a>
+&lt;ul>
+&lt;li>Persistent on-disk BTree implementation in Java&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-user-graduate): Author &lt;a href="https://github.com/nickpoorman/https://github.com/nickpoorman/CS-Project-490" target="_blank" rel="noopener noreffer">nickpoorman/https://github.com/nickpoorman/CS-Project-490&lt;/a>
+&lt;ul>
+&lt;li>Text based game foundation with plugin api&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>:(fas fa-user-graduate): Author &lt;a href="https://github.com/nickpoorman/CSC445-TFTP-Sliding-Windows-Java" target="_blank" rel="noopener noreffer">nickpoorman/CSC445-TFTP-Sliding-Windows-Java&lt;/a>
+&lt;ul>
+&lt;li>A TFTP implementation for IPv4 and IPv6 that also has the ability to use sliding windows&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="2008">2008&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Social Chairman @Computer Science Association&lt;/li>
+&lt;li>:(far fa-user): Project Manager (Contractor) @TEA&lt;/li>
+&lt;li>:(far fa-user): US Sailing Instructor @Oswego Maritime Foundation&lt;/li>
+&lt;li>:(fas fa-user-graduate): Author &lt;a href="https://github.com/nickpoorman/CSC344-A3-Python" target="_blank" rel="noopener noreffer">nickpoorman/CSC344-A3-Python&lt;/a>
+&lt;ul>
+&lt;li>First attempt at Python. Website that grabs comments from Ventrilo and displays them on a page&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="2007">2007&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Systems Assembler @Seneca Data&lt;/li>
+&lt;li>:(far fa-user): President @&amp;lsquo;Cuse Cuisine&lt;/li>
+&lt;/ul>
+&lt;h4 id="2006">2006&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Vice President of Production @Rockin&amp;rsquo; Recipes&lt;/li>
+&lt;/ul>
+&lt;h4 id="2003-06">2003-06&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): US Sailing Instructor @Henderson Harbor Water Sports&lt;/li>
+&lt;/ul>
+&lt;figure class="lb ">
+&lt;a href="/about/nickpoorman_1456852944_6.jpg" data-lightbox="/about/nickpoorman_1456852944_6.jpg" data-title="" class="lb">
+&lt;img style="border-radius: 8px; margin-top: 50px;" class="lb" src="/about/nickpoorman_1456852944_6.jpg" alt="" width="500" />
+&lt;/a>&lt;figcaption class="figcaption">&lt;/figcaption>
+&lt;/figure></description></item><item><title>Posts</title><link>/posts/</link><pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>/posts/</guid><description/></item></channel></rss>
