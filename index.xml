@@ -1,4 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go (Golang) and Data Programming Blog - Nick Poorman | Go (Golang) and Data Programming Blog - Nick Poorman</title><link>https://nickpoorman.com/</link><description>Go (Golang) and Data Programming Blog - Nick Poorman | Go (Golang) and Data Programming Blog - Nick Poorman</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 29 Feb 2020 11:34:00 -0500</lastBuildDate><atom:link href="https://nickpoorman.com/" rel="self" type="application/rss+xml"/><item><title>About Nick Poorman</title><link>https://nickpoorman.com/about/</link><pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>https://nickpoorman.com/about/</guid><description>&lt;h1 id="cv">CV&lt;/h1>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go (Golang) and Data Programming Blog - Nick Poorman | Go (Golang) and Data Programming Blog - Nick Poorman</title><link>https://nickpoorman.com/</link><description>Go (Golang) and Data Programming Blog - Nick Poorman | Go (Golang) and Data Programming Blog - Nick Poorman</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 29 Feb 2020 11:34:00 -0500</lastBuildDate><atom:link href="https://nickpoorman.com/" rel="self" type="application/rss+xml"/><item><title>About Nick Poorman</title><link>https://nickpoorman.com/about/</link><pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>https://nickpoorman.com/about/</guid><description>&lt;p>Nick is a Golang data software enthusiast, building OSS data projects on Apache
+Arrow, and is currently the Director of Data Platform @RedVentures. He as also
+an investor @Untappd. When Nick is not at a computer, you can find him out
+racing sailboats and involved with various entrepreneurial ventures.&lt;/p>
+&lt;figure class="lb ">
+&lt;a href="https://nickpoorman.com/about/nickpoorman_1456852944_6.jpg" data-lightbox="/about/nickpoorman_1456852944_6.jpg" data-title="" class="lb">
+&lt;img style="border-radius: 8px; margin-top: 50px;" class="lb" src="https://nickpoorman.com/about/nickpoorman_1456852944_6.jpg" alt="" width="500" />
+&lt;/a>&lt;figcaption class="figcaption">&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="cv">CV&lt;/h2>
 &lt;p>:(fas fa-code): = open-source (OSS)&lt;/p>
 &lt;h4 id="2020">2020&lt;/h4>
 &lt;ul>
@@ -429,9 +438,4 @@ Javascript Minecraft Server
 &lt;h4 id="2003-06">2003-06&lt;/h4>
 &lt;ul>
 &lt;li>:(far fa-user): US Sailing Instructor @Henderson Harbor Water Sports&lt;/li>
-&lt;/ul>
-&lt;figure class="lb ">
-&lt;a href="https://nickpoorman.com/about/nickpoorman_1456852944_6.jpg" data-lightbox="/about/nickpoorman_1456852944_6.jpg" data-title="" class="lb">
-&lt;img style="border-radius: 8px; margin-top: 50px;" class="lb" src="https://nickpoorman.com/about/nickpoorman_1456852944_6.jpg" alt="" width="500" />
-&lt;/a>&lt;figcaption class="figcaption">&lt;/figcaption>
-&lt;/figure></description></item><item><title>Posts</title><link>https://nickpoorman.com/posts/</link><pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>https://nickpoorman.com/posts/</guid><description/></item></channel></rss>
+&lt;/ul></description></item><item><title>Posts</title><link>https://nickpoorman.com/posts/</link><pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>https://nickpoorman.com/posts/</guid><description/></item></channel></rss>
