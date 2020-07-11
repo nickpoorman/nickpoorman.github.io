@@ -12,14 +12,20 @@ racing sailboats and involved with various entrepreneurial ventures.&lt;/p>
 &lt;h4 id="2020">2020&lt;/h4>
 &lt;ul>
 &lt;li>:(fas fa-code): Founder &lt;a href="https://github.com/orgs/gomem" target="_blank" rel="noopener noreffer">Gomem&lt;/a>
-Github Organization (Coming Soon)
+Github Organization
 &lt;ul>
 &lt;li>Memory and data software in Go&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/gomem/gomem" target="_blank" rel="noopener noreffer">gomem/gomem&lt;/a>
+&lt;ul>
+&lt;li>Packages for working with &lt;a href="https://github.com/apache/arrow/tree/master/go" target="_blank" rel="noopener noreffer">Apache Arrow&lt;/a>
+in Go. Includes a Go DataFrame built on Apache Arrow.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>:(fas fa-code): Contributor &lt;a href="https://github.com/apache/arrow" target="_blank" rel="noopener noreffer">apache/arrow&lt;/a>
 &lt;ul>
-&lt;li>Ported the Apache Arrow C++ Parquet implementation to Go - &lt;a href="https://issues.apache.org/jira/browse/ARROW-7905" target="_blank" rel="noopener noreffer">ARROW-7905&lt;/a>
+&lt;li>Porting the Apache Arrow C++ Parquet implementation to Go - &lt;a href="https://issues.apache.org/jira/browse/ARROW-7905" target="_blank" rel="noopener noreffer">ARROW-7905&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;/li>

@@ -14,10 +14,12 @@ racing sailboats and involved with various entrepreneurial ventures.
 
 #### 2020
 
-- :(fas fa-code): Founder [Gomem](https://github.com/orgs/gomem) Github Organization (Coming Soon)
+- :(fas fa-code): Founder [Gomem](https://github.com/orgs/gomem) Github Organization
   - Memory and data software in Go
+- :(fas fa-code): Author [gomem/gomem](https://github.com/gomem/gomem)
+  - Packages for working with [Apache Arrow](https://github.com/apache/arrow/tree/master/go) in Go. Includes a Go DataFrame built on Apache Arrow.
 - :(fas fa-code): Contributor [apache/arrow](https://github.com/apache/arrow)
-  - Ported the Apache Arrow C++ Parquet implementation to Go - [ARROW-7905](https://issues.apache.org/jira/browse/ARROW-7905)
+  - Porting the Apache Arrow C++ Parquet implementation to Go - [ARROW-7905](https://issues.apache.org/jira/browse/ARROW-7905)
 - :(far fa-user): Director of Engineering on Data Platform @RedVentures
 
 #### 2019
