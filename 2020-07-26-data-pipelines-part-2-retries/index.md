@@ -88,7 +88,7 @@ nc.Subscribe("request", func(m *nats.Msg) {
 })
 
 // Publish a message
-nc.Request("request", []byte("What is the answer to the ultimate question of life, the universe, and everything?"))
+nc.Request("request", []byte("What is the answer to the Ultimate Question of Life, the Universe, and Everything?"))
 ```
 
 NATS makes it easy to [respond to a request](https://docs.nats.io/nats-concepts/reqreply). Any time you make a request, it sends the request to only one subscriber in a [queue group](https://docs.nats.io/nats-concepts/queue). Along with the request, it includes an inbox address where the response should be sent to. The inbox address is simply another subject specifically created to receive a response for that request. Using the `Request` and `Respond` we can satisfy our acknowledgments requirement. We'll also give the consumer 30 seconds to respond with an acknowledgment before the request times out and results in an error.
@@ -224,5 +224,5 @@ Sometimes for whatever reason, messages may end up in a permanent failure situat
 
 ### Summary
 
-Hopefully, you can see the power of this pattern. By offloading any messages that are not acknowledged to the Auto scaling Retry Service, we ensure we don't lose messages. We are able to code our producers in a way that allows them to fall back onto the Retry Service, which will automatically take care of retrying the publishing messages to their original topic at a later time. With this pattern, any number of topics can be created with any number of consumers without adding any additional Streaming technologies between our producers and consumers. I’ve put together some code for what a retry service like this might look like. Feel free to [check it out on GitHub](https://github.com/nickpoorman/nats-requeue).
+Hopefully, you can see the power of this pattern. By offloading any messages that are not acknowledged to the auto scaling Retry Service, we ensure we don't lose messages. We are able to code our producers in a way that allows them to fall back onto the Retry Service, which will automatically take care of retrying the publishing messages to their original topic at a later time. With this pattern, any number of topics can be created with any number of consumers without adding any additional Streaming technologies between our producers and consumers. I’ve put together some code for what a retry service like this might look like. Feel free to [check it out on GitHub](https://github.com/nickpoorman/nats-requeue).
 

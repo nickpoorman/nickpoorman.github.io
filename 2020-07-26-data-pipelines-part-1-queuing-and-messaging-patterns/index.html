@@ -68,7 +68,7 @@ endpoint.</p><p><figure><img src=/svg/loading.min.svg data-sizes=auto data-src=s
 <span class=k>for</span> <span class=p>{</span>
     <span class=nx>msg</span> <span class=o>:=</span> <span class=nf>pullMessageFromStreamingTechnology</span><span class=p>()</span>
 
-    <span class=nx>err</span> <span class=o>:=</span> <span class=nf>sendMessageToFancyAnalysisWebhook</span><span class=p>(</span><span class=nx>msg</span><span class=p>)</span>
+    <span class=nx>err</span> <span class=o>:=</span> <span class=nf>sendMessageToAnalysisSaaSWebhook</span><span class=p>(</span><span class=nx>msg</span><span class=p>)</span>
     <span class=k>if</span> <span class=nx>err</span> <span class=p>{</span>
         <span class=c1>// SaaS analysis tool isn&#39;t accepting messges right now;
 </span><span class=c1></span>        <span class=c1>// probably because they don&#39;t have a redundant streaming technology.
@@ -137,7 +137,7 @@ endpoint.</p><p><figure><img src=/svg/loading.min.svg data-sizes=auto data-src=s
 </span><span class=c1></span><span class=k>for</span> <span class=p>{</span>
     <span class=nx>msg</span> <span class=o>:=</span> <span class=nf>pullMessageFromStreaming2</span><span class=p>()</span>
 
-    <span class=nx>err</span> <span class=o>:=</span> <span class=nf>sendMessageToFancyAnalysisWebhook</span><span class=p>(</span><span class=nx>msg</span><span class=p>)</span>
+    <span class=nx>err</span> <span class=o>:=</span> <span class=nf>sendMessageToAnalysisSaaSWebhook</span><span class=p>(</span><span class=nx>msg</span><span class=p>)</span>
     <span class=k>if</span> <span class=nx>err</span> <span class=p>{</span>
         <span class=c1>// SaaS analysis tool isn&#39;t accepting messges right now;
 </span><span class=c1></span>        <span class=c1>// probably because they don&#39;t have a redundant streaming technology.

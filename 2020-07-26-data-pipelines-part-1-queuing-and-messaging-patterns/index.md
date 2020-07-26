@@ -76,7 +76,7 @@ var totalPageViews int64
 for {
     msg := pullMessageFromStreamingTechnology()
 
-    err := sendMessageToFancyAnalysisWebhook(msg)
+    err := sendMessageToAnalysisSaaSWebhook(msg)
     if err {
         // SaaS analysis tool isn't accepting messges right now;
         // probably because they don't have a redundant streaming technology.
@@ -126,7 +126,7 @@ for {
 for {
     msg := pullMessageFromStreaming2()
 
-    err := sendMessageToFancyAnalysisWebhook(msg)
+    err := sendMessageToAnalysisSaaSWebhook(msg)
     if err {
         // SaaS analysis tool isn't accepting messges right now;
         // probably because they don't have a redundant streaming technology.
