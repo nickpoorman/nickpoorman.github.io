@@ -11,6 +11,11 @@ racing sailboats and involved with various entrepreneurial ventures.&lt;/p>
 &lt;p>:(fas fa-code): = open-source (OSS)&lt;/p>
 &lt;h4 id="2020">2020&lt;/h4>
 &lt;ul>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/nickpoorman/nats-requeue" target="_blank" rel="noopener noreffer">nickpoorman/nats-requeue&lt;/a>
+&lt;ul>
+&lt;li>A service that persists @nats-io messages to disk and retries sending them at a deferred time&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>:(fas fa-code): Founder &lt;a href="https://github.com/orgs/gomem" target="_blank" rel="noopener noreffer">Gomem&lt;/a>
 Github Organization
 &lt;ul>
@@ -116,9 +121,9 @@ in Go. Includes a Go DataFrame built on Apache Arrow.&lt;/li>
 &lt;li>:(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
 &lt;ul>
 &lt;li>Reported to CTO&lt;/li>
-&lt;li>GraphQL API for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;li>GraphQL API for &lt;a href="https://untappd.com/business" target="_blank" rel="noopener noreffer">Untappd For Business&lt;/a>
 &lt;/li>
-&lt;li>Local Badges and Payment Processing for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;li>Local Badges and Payment Processing for &lt;a href="https://untappd.com/business" target="_blank" rel="noopener noreffer">Untappd For Business&lt;/a>
 &lt;/li>
 &lt;li>Ruby on Rails (RoR), Postgres, Redis, Sidekiq, Vue.js, React.js, and GraphQL&lt;/li>
 &lt;/ul>
@@ -143,11 +148,11 @@ Of Technology Conference&lt;/li>
 &lt;li>:(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
 &lt;ul>
 &lt;li>Reported to CEO&lt;/li>
-&lt;li>Menu Builder for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;li>Menu Builder for &lt;a href="https://untappd.com/business" target="_blank" rel="noopener noreffer">Untappd For Business&lt;/a>
 &lt;/li>
-&lt;li>Facebook and Twitter integration for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;li>Facebook and Twitter integration for &lt;a href="https://untappd.com/business" target="_blank" rel="noopener noreffer">Untappd For Business&lt;/a>
 &lt;/li>
-&lt;li>Sidekiq Job Processing for &lt;a href="business.untappd.com" rel="noopener noreffer">Untappd For Business&lt;/a>
+&lt;li>Sidekiq Job Processing for &lt;a href="https://untappd.com/business" target="_blank" rel="noopener noreffer">Untappd For Business&lt;/a>
 &lt;/li>
 &lt;li>Ruby on Rails (RoR), Postgres, Redis, Sidekiq, Vue.js, React.js, and GraphQL&lt;/li>
 &lt;/ul>

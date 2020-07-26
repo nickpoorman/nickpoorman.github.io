@@ -14,6 +14,8 @@ racing sailboats and involved with various entrepreneurial ventures.
 
 #### 2020
 
+- :(fas fa-code): Author [nickpoorman/nats-requeue](https://github.com/nickpoorman/nats-requeue)
+  - A service that persists @nats-io messages to disk and retries sending them at a deferred time
 - :(fas fa-code): Founder [Gomem](https://github.com/orgs/gomem) Github Organization
   - Memory and data software in Go
 - :(fas fa-code): Author [gomem/gomem](https://github.com/gomem/gomem)
@@ -67,8 +69,8 @@ racing sailboats and involved with various entrepreneurial ventures.
 - :(far fa-user): Partner @Unreplied.io & @Unreplied.me - Email SaaS Product
 - :(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
   - Reported to CTO
-  - GraphQL API for [Untappd For Business](business.untappd.com)
-  - Local Badges and Payment Processing for [Untappd For Business](business.untappd.com)
+  - GraphQL API for [Untappd For Business](https://untappd.com/business)
+  - Local Badges and Payment Processing for [Untappd For Business](https://untappd.com/business)
   - Ruby on Rails (RoR), Postgres, Redis, Sidekiq, Vue.js, React.js, and GraphQL
 - :(far fa-user): Member of Port City Young Professionals
 
@@ -81,9 +83,9 @@ racing sailboats and involved with various entrepreneurial ventures.
 - :(far fa-comment-dots): Cognitive Analytics Panelist @[NCTA](http://www.ncstir.com/wp-content/uploads/2016/01/NCTA-NCSTIR-2016-REPORT.pdf) [State](https://www.youtube.com/watch?v=QRSat4eHmBE&feature=youtu.be) Of Technology Conference
 - :(far fa-user): Lead Data Scientist @Untappd (@NextGlass)
   - Reported to CEO
-  - Menu Builder for [Untappd For Business](business.untappd.com)
-  - Facebook and Twitter integration for [Untappd For Business](business.untappd.com)
-  - Sidekiq Job Processing for [Untappd For Business](business.untappd.com)
+  - Menu Builder for [Untappd For Business](https://untappd.com/business)
+  - Facebook and Twitter integration for [Untappd For Business](https://untappd.com/business)
+  - Sidekiq Job Processing for [Untappd For Business](https://untappd.com/business)
   - Ruby on Rails (RoR), Postgres, Redis, Sidekiq, Vue.js, React.js, and GraphQL
 - :(far fa-user): Owner @pantry.io
 - :(far fa-user): Member of Port City Young Professionals
