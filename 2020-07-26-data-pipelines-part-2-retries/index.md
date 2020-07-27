@@ -75,9 +75,9 @@ Let's think about some of our requirements here.
 2. We need to ensure the messages eventually make it to our webhooks. Our solution should be resilient to webhook downtime. It should also be able to deal with rate limit requirements a given webhook might have.
 3. We want our messages committed to disk. We will most likely have more data than can be reasonably kept in RAM. Also, committing messages to disk gives us better message durability guarantees should the system restart.
 4. We don't want the overhead of managing a large replicated service like Kafka.
-5. We need acknowledgement capabilities between every producer, consumer, and webhook.
+5. We need acknowledgment capabilities between every producer, consumer, and webhook.
 
-### Acknowledgements
+### Acknowledgments
 
 Before we move on, we need to go back to the last post where we talked about acknowledgments. When sending a message from a producer to a consumer, we need a way for the consumer to acknowledge that the message was received and processed. Let's use the case of consumer-2 and SaaS Webhook in the above diagram. When consumer-2 makes an HTTP Request to SaaS Webhook, SaaS Webhook will accept and process the message. Once the message has been processed, SaaS Webhook will respond with an acknowledgment. In the case of HTTP, the acknowledgment is probably an HTTP 200 response code. Internally, we are using pub-sub so our acknowledgments should be similar. A producer will publish a message and a consumer should respond with an acknowledgment once it has processed the message. We can do this quite simply in NATS.
 
@@ -202,7 +202,7 @@ We'll design our dead letter queue so that it will automatically retry sending m
 
 ![Diagram of a Retry Service](requeue.svg)
 
-Instead of adding a Streaming technology between every producer and consumer, we have instead opted to allow producers to publish at any rate they wish. In the event the consumer is not able to keep up, the producer falls back to sending the message to our Retry Service, also known as requeue. Because our Retry Service is running in ECS it will automatically scale to the needs of our publishers. Since our Retry Service consumers are all part of the same queue group, NATS will load balance messages across the Retry Service instances. Upon receiving a message, the Retry Service will persist it to the Badger database on disk, using a key with a timestamp at some point in the future. When the time comes, that message will be picked up and republished back on the subject it was intended for. If the consumer, such as `webhook-1-consumer` still does not acknowledge the message, exponential backoff will come into play and the message will be retired again at some point in the future. This process may continue until `webhook1` comes back online and the message is successfully delivered to the webhook.
+Instead of adding a Streaming technology between every producer and consumer, we have instead opted to allow producers to publish at any rate they wish. In the event the consumer is not able to keep up, the producer falls back to sending the message to our Retry Service, also known as Requeue. Because our Retry Service is running in ECS it will automatically scale to the needs of our publishers. Since our Retry Service consumers are all part of the same queue group, NATS will load balance messages across the Retry Service instances. Upon receiving a message, the Retry Service will persist it to the Badger database on disk, using a key with a timestamp at some point in the future. When the time comes, that message will be picked up and republished back on the subject it was intended for. If the consumer, such as `webhook-1-consumer` still does not acknowledge the message, exponential backoff will come into play and the message will be retired again at some point in the future. This process may continue until `webhook1` comes back online and the message is successfully delivered to the webhook.
 
 ### Decoupling
 
@@ -224,5 +224,5 @@ Sometimes for whatever reason, messages may end up in a permanent failure situat
 
 ### Summary
 
-Hopefully, you can see the power of this pattern. By offloading any messages that are not acknowledged to the auto scaling Retry Service, we ensure we don't lose messages. We are able to code our producers in a way that allows them to fall back onto the Retry Service, which will automatically take care of retrying the publishing messages to their original topic at a later time. With this pattern, any number of topics can be created with any number of consumers without adding any additional Streaming technologies between our producers and consumers. I’ve put together some code for what a retry service like this might look like. Feel free to [check it out on GitHub](https://github.com/nickpoorman/nats-requeue).
+Hopefully, you can see the power of this pattern. By offloading any messages that are not acknowledged to the auto-scaling Retry Service, we ensure we don't lose messages. We are able to code our producers in a way that allows them to fall back onto the Retry Service, which will automatically take care of retrying the publishing messages to their original topic at a later time. With this pattern, any number of topics can be created with any number of consumers without adding any additional Streaming technologies between our producers and consumers. I’ve put together some code for what a retry service like this might look like. Feel free to [check it out on GitHub](https://github.com/nickpoorman/nats-requeue).
 
