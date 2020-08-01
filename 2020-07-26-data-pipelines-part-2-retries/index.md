@@ -1,4 +1,4 @@
-# Data Pipelines: Part 2 - Retries
+# Data Pipelines: Part 2 - Building A Cloud-Scale Central Retry Service For Data Pipelines
 
 
 ### A Different Approach
