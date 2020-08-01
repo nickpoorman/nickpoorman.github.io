@@ -1,8 +1,6 @@
 # Forward
 
 
-{{< lightbox name="*gomem*" centered="yes" >}}
-
 ### Until now
 
 Lately, I have found myself spending a decent amount of time on open-source data
@@ -35,6 +33,8 @@ C/C++ to do [various data things.](https://numpy.org/) You have the Rust crowd
 wrangling performance by avoiding the garbage collector. You have the JVM crowd
 doing Java, Scala, Kotlin, etc... Don't forget about the Spark crowd which
 includes the Python, JVM, and C++ crowds.
+
+{{< lightbox name="*gomem*" centered="yes" >}}
 
 ### Concurrency and simplicity
 
