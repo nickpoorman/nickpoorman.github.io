@@ -2,8 +2,7 @@
 
 
 Nick is a Golang data software enthusiast, building OSS data projects on Apache
-Arrow, and is currently the Director of Data Platform @RedVentures. He as also
-an investor @Untappd. When Nick is not at a computer, you can find him out
+Arrow, and is currently the VP of Engineering at Sixgill. When Nick is not at a computer, you can find him out
 racing sailboats and involved with various entrepreneurial ventures.
 
 {{< lightbox imgstyle="border-radius: 8px; margin-top: 50px;" name="*nickpoorman_1456852944_6*" width="500">}}
@@ -14,6 +13,7 @@ racing sailboats and involved with various entrepreneurial ventures.
 
 #### 2020
 
+- :(far fa-user): VP of Engineering @Sixgill (computer vision / machine learning)
 - :(fas fa-code): Author [nickpoorman/nats-requeue](https://github.com/nickpoorman/nats-requeue)
   - A service that persists @nats-io messages to disk and retries sending them at a deferred time
 - :(fas fa-code): Founder [Gomem](https://github.com/orgs/gomem) Github Organization
