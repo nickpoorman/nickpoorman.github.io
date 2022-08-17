@@ -1,8 +1,8 @@
 # About Nick Poorman
 
 
-Nick is a Golang data software enthusiast, building OSS data projects on Apache
-Arrow, and is currently the VP of Engineering at Sixgill. When Nick is not at a computer, you can find him out
+Nick is a data software enthusiast, building OSS
+software and is cuurrently the Director of Engineering at Swirlds Labs building teams that build the Hedera hashgraph (blockchain). When Nick is not at a computer, you can find him out
 racing sailboats and involved with various entrepreneurial ventures.
 
 {{< lightbox imgstyle="border-radius: 8px; margin-top: 50px;" name="*nickpoorman_1456852944_6*" width="500">}}
@@ -10,6 +10,15 @@ racing sailboats and involved with various entrepreneurial ventures.
 ## CV
 
 :(fas fa-code): = open-source (OSS)
+
+#### 2022
+
+- :(far fa-user): Director of Engineering @SwirldsLabs (Hedera hashgraph and distributed ledger technology)
+
+#### 2021
+
+- :(fas fa-code): Author [hyperscalr/fallbaq](https://github.com/hyperscalr/fallbaq)
+- :(far fa-user): President @Hyperscalr  (high-volume low-latency data systems)
 
 #### 2020
 

@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A blog on building teams, data pipelines, and AI - Nick Poorman | A blog on building teams, data pipelines, and AI - Nick Poorman</title><link>https://nickpoorman.com/</link><description>A blog on building teams, data pipelines, and AI - Nick Poorman | A blog on building teams, data pipelines, and AI - Nick Poorman</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Jul 2020 12:00:00 -0500</lastBuildDate><atom:link href="https://nickpoorman.com/" rel="self" type="application/rss+xml"/><item><title>Posts</title><link>https://nickpoorman.com/posts/</link><pubDate>Sun, 26 Jul 2020 12:00:00 -0500</pubDate><guid>https://nickpoorman.com/posts/</guid><description/></item><item><title>About Nick Poorman</title><link>https://nickpoorman.com/about/</link><pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>https://nickpoorman.com/about/</guid><description>&lt;p>Nick is a Golang data software enthusiast, building OSS data projects on Apache
-Arrow, and is currently the VP of Engineering at Sixgill. When Nick is not at a computer, you can find him out
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A blog on building teams, data pipelines, and AI - Nick Poorman | A blog on building teams, data pipelines, and AI - Nick Poorman</title><link>https://nickpoorman.com/</link><description>A blog on building teams, data pipelines, and AI - Nick Poorman | A blog on building teams, data pipelines, and AI - Nick Poorman</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Jul 2020 12:00:00 -0500</lastBuildDate><atom:link href="https://nickpoorman.com/" rel="self" type="application/rss+xml"/><item><title>Posts</title><link>https://nickpoorman.com/posts/</link><pubDate>Sun, 26 Jul 2020 12:00:00 -0500</pubDate><guid>https://nickpoorman.com/posts/</guid><description/></item><item><title>About Nick Poorman</title><link>https://nickpoorman.com/about/</link><pubDate>Sat, 29 Feb 2020 11:34:00 -0500</pubDate><guid>https://nickpoorman.com/about/</guid><description>&lt;p>Nick is a data software enthusiast, building OSS
+software and is cuurrently the Director of Engineering at Swirlds Labs building teams that build the Hedera hashgraph (blockchain). When Nick is not at a computer, you can find him out
 racing sailboats and involved with various entrepreneurial ventures.&lt;/p>
 &lt;figure class="lb ">
 &lt;a href="https://nickpoorman.com/about/nickpoorman_1456852944_6.jpg" data-lightbox="/about/nickpoorman_1456852944_6.jpg" data-title="" class="lb">
@@ -8,6 +8,16 @@ racing sailboats and involved with various entrepreneurial ventures.&lt;/p>
 &lt;/figure>
 &lt;h2 id="cv">CV&lt;/h2>
 &lt;p>:(fas fa-code): = open-source (OSS)&lt;/p>
+&lt;h4 id="2022">2022&lt;/h4>
+&lt;ul>
+&lt;li>:(far fa-user): Director of Engineering @SwirldsLabs (Hedera hashgraph and distributed ledger technology)&lt;/li>
+&lt;/ul>
+&lt;h4 id="2021">2021&lt;/h4>
+&lt;ul>
+&lt;li>:(fas fa-code): Author &lt;a href="https://github.com/hyperscalr/fallbaq" target="_blank" rel="noopener noreffer">hyperscalr/fallbaq&lt;/a>
+&lt;/li>
+&lt;li>:(far fa-user): President @Hyperscalr (high-volume low-latency data systems)&lt;/li>
+&lt;/ul>
 &lt;h4 id="2020">2020&lt;/h4>
 &lt;ul>
 &lt;li>:(far fa-user): VP of Engineering @Sixgill (computer vision / machine learning)&lt;/li>
