@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/Users/nick/projects/tmp/blog",
+	"sourceRoot": "/Users/nick/archived_projects/nickpoorman.com",
 	"sources": [
 		"assets/css/style.template.scss",
 		"assets/css/_variables.scss",
